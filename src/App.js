@@ -14,15 +14,35 @@ function App() {
       rounded font-serif-times
       ">Hello Tailwind</h2>
 
+      <div className="
+      flex">
       <button className="
       ml-10 mt-4
       border-2 p-1 pl-2 pr-2
-      bg-purple-400 
+      bg-gradient-to-br
+      from-green-400
+      via-green-200
+      to-lime-300
       rounded-lg 
       font-medium
-      shadow-4xl
+      shadow-xl
       hover:bg-violet-300
+      ">Cancel</button>
+      
+     
+      <button className="
+      ml-10 mt-4
+      border-2 p-1 pl-2 pr-2
+      bg-gradient-to-br
+      from-rose-400
+      via-rose-200
+      to-lime-300
+      rounded-lg 
+      font-medium
+      shadow-xl
+      hover:bg-violet-200
       ">Confirm</button>
+      </div>
     </div>
   );
 }
